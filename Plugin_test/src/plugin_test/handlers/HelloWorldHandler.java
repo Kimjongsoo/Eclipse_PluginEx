@@ -5,6 +5,7 @@ import java.awt.Dialog;
 import javax.inject.Named;
 import javax.swing.JButton;
 import javax.swing.JDialog;
+import javax.swing.JFrame;
 
 import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.e4.ui.services.IServiceConstants;
@@ -20,12 +21,12 @@ public class HelloWorldHandler {
 	public void execute(@Named(IServiceConstants.ACTIVE_SHELL) Shell s) {
 		
 		//MessageDialog.openInformation(s, "E4 Information Dialog", "Hello world from a pure Eclipse 4 plug-in");
-		Dialog dialog = new JDialog();
-		dialog.setTitle("나의 다이얼로그");
-		dialog.add(new JButton("click!"));
-		dialog.setSize(300,300);
-		dialog.setVisible(true);
-		
+//		Dialog dialog = new JDialog();
+//		dialog.setTitle("나의 다이얼로그");
+//		dialog.add(new JButton("click!"));
+//		dialog.setSize(300,300);
+//		dialog.setVisible(true);
+		new UDialog();
 
 	}
 
