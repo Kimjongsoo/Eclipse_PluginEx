@@ -9,7 +9,7 @@
             id="Plugin_test.commands.category">
       </category>
       <command
-            name="Sample Command"
+            name="Sample Command__"
             categoryId="Plugin_test.commands.category"
             id="Plugin_test.commands.sampleCommand">
       </command>
@@ -35,7 +35,7 @@
       <menuContribution
             locationURI="menu:org.eclipse.ui.main.menu?after=additions">
          <menu
-               label="Sample Menu"
+               label="Plugin_test"
                mnemonic="M"
                id="Plugin_test.menus.sampleMenu">
             <command
