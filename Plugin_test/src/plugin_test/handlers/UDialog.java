@@ -16,6 +16,7 @@ public class UDialog extends JFrame{
 		setTitle("Plugin Test");
 		setSize(550,400);
 		setVisible(true);
+		setFrame();
 	}
 	public void setFrame() {
 		Container c = getContentPane();
