@@ -3,8 +3,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="E:/Eclipse/Eclipse_luna/eclipse/workspace/lib/jackson-databind-2.9.5.jar"/>
-	<classpathentry kind="lib" path="E:/Eclipse/Eclipse_luna/eclipse/workspace/lib/jackson-annotations-2.9.0.jar"/>
-	<classpathentry kind="lib" path="E:/Eclipse/Eclipse_luna/eclipse/workspace/lib/jackson-core-2.9.5.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.9.5.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-databind-2.9.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
